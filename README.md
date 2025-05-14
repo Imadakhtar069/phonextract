@@ -38,7 +38,7 @@ PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gather
 
 ### Termux Full Install and Setup 
 ```
-pkg update && pkg upgrade && pkg install git && git clone https://github.com/thakur2309/StormRage.git && cd StormRage && chmod +x install.sh && ./install.sh && python3 stormrage.py
+pkg update && pkg upgrade && pkg install git && git clone https://github.com/thakur2309/phonextract.git && cd phonextract && pip install -r requirements.txt && python3 phonextract.py
 ```
 
 ### [TERMUX] Packege Install Comments
@@ -50,21 +50,19 @@ pkg update && pkg upgrade -y
 pkg install git -y
 ```
 ```
-git clone https://github.com/thakur2309/StormRage.git
+git clone https://github.com/thakur2309/phonextract.git
 ```
 ```
-cd StormRage
+cd phonextract
 ```
 ```
 pip install -r requirements.txt
 ```
-```
-./install.sh
-```
+
 
 ### Start Command 
 ```
-python3 stormrage.py
+python3 phonextract.py
 ```
 
 
