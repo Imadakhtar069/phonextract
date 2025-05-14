@@ -1,18 +1,50 @@
 <h1 align="center"><u> 📌StormRage - Powerful DDoS Tool😮 </u></h1>
 
-**⚠️ Use for educational purposes only and on your own systems.**
+**⚠️ Use for educational purposes only**
 
-A simple Python-based DDoS tool for testing the strength of your server against HTTP and TCP flood attacks. 
+A simple Python-based DDoS tool for # 📞 PhoneXtract - Number Intelligence Tool
 
-## Features:
-- **TCP Flood Attack**: Simulates TCP flood on the target IP and port.
-- **HTTPS Flood Attack**: Simulates HTTPS requests to the target URL.
+PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gathering basic information about any phone number (Indian numbers preferred). Ideal for educational purposes and security researchers.
 
-## Prerequisites:
-- Python 3.x
-- Required Python libraries listed in `install.sh`
-## Preview:
-![Instagram Image ](https://raw.githubusercontent.com/thakur2309/StormRage/refs/heads/main/Screenshot_2025_0513_114337.jpg)
+> 🔧 Created by: Alok Thakur  
+> 📺 YouTube: [Firewall Breaker](#)  
+
+---
+
+## ⚙️ Features
+
+- 📍 Get the location (state-level) of the phone number
+- 📡 Detect carrier name (Airtel, Jio, etc.)
+- 📞 Identify phone type (Mobile, Landline, VoIP)
+- 🕰️ Time zone of the number
+- 🌐 National & International formats
+- ✅ Validity check of the number
+- 🔠 Prefix and area code analysis
+- 🏙️ City/State (approximate via prefix mapping)
+- 🚫 Placeholder sections for:
+  - Spam reports
+  - Risk score
+  - Data breach info
+
+---
+
+## 🌐 International Number Support
+
+> **Note:** PhoneXtract works with global numbers using the `phonenumbers` library, but:
+>
+> - City/state detection is only optimized for **Indian numbers**.
+> - International numbers will show only **basic info** like country, timezone, and type.
+> - Prefix-based lookup is India-specific.
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/your-username/PhoneXtract.git
+cd PhoneXtract
+pip install -r requirements.txt
+
 
 
 ### Termux Full Install and Setup 
@@ -35,7 +67,7 @@ git clone https://github.com/thakur2309/StormRage.git
 cd StormRage
 ```
 ```
-chmod +x install.sh
+pip install -r requirements.txt
 ```
 ```
 ./install.sh
