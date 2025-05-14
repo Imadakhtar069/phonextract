@@ -1,8 +1,8 @@
-<h1 align="center"><u> 📌StormRage - Powerful DDoS Tool😮 </u></h1>
+<h1 align="center"><u> 📌Find information by phone number 😮 </u></h1>
 
 **⚠️ Use for educational purposes only**
 
-A simple Python-based DDoS tool for # 📞 PhoneXtract - Number Intelligence Tool
+📞 PhoneXtract - Number Intelligence Tool
 
 PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gathering basic information about any phone number (Indian numbers preferred). Ideal for educational purposes and security researchers.
 
@@ -35,17 +35,6 @@ PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gather
 > - City/state detection is only optimized for **Indian numbers**.
 > - International numbers will show only **basic info** like country, timezone, and type.
 > - Prefix-based lookup is India-specific.
-
----
-
-## 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/PhoneXtract.git
-cd PhoneXtract
-pip install -r requirements.txt
-
-
 
 ### Termux Full Install and Setup 
 ```
