@@ -7,7 +7,7 @@
 PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gathering basic information about any phone number (Indian numbers preferred). Ideal for educational purposes and security researchers.
 
 > 🔧 Created by: Alok Thakur  
-> 📺 YouTube: [Firewall Breaker](#)  
+> 📺 YouTube: [https://www.youtube.com/@FirewallBreaker09](#)  
 
 ---
 
