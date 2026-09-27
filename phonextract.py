@@ -15,7 +15,7 @@ init(autoreset=True)
 
 # ─────────────────────────────────────────────────────────────
 #  PhoneXtract v3.0
-#  Created by : Alok Thakur | YouTube : Firewall Breaker
+#  Created by : Imad Akhtar 069 | Insta : Akhtar Imad 69
 #  For Educational & OSINT Use Only
 # ─────────────────────────────────────────────────────────────
 
@@ -38,7 +38,7 @@ def banner():
     print(Fore.GREEN  + "  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
     print(Fore.YELLOW + "  PhoneXtract v3.0          --  Number Intelligence Tool")
     print(Fore.YELLOW + "  For Educational & OSINT Use Only")
-    print(Fore.MAGENTA+ "  Created by : Alok Thakur  |  YouTube : Firewall Breaker")
+    print(Fore.MAGENTA + "  Created by : Imad Akhtar 069  |  " + Fore.RED + "Insta : " + Fore.BLUE + "@akhtarimad69")
     print(Fore.GREEN  + "=" * 60)
 
 
@@ -520,7 +520,7 @@ def analyze_number(number, save=False):
         "  [!] WhatsApp check is best-effort only.",
         "  [!] All data from public records. No API key used.",
         SEP,
-        "  PhoneXtract v3.0  by Alok Thakur  |  Firewall Breaker",
+        "  PhoneXtract v3.0  by Imad Akhtar 069  |  Imad Akhtar 069",
         SEP,
     ]
 
@@ -669,7 +669,7 @@ def main_menu():
 
         elif choice == "0":
             print(Fore.GREEN  + "\n  [+] Exiting PhoneXtract. Stay ethical.\n")
-            print(Fore.MAGENTA+ "      Created by Alok Thakur | Firewall Breaker\n")
+            print(Fore.MAGENTA+ "      Created by Imad Akhtar 069 | Imad Akhtar 069\n")
             break
 
         else:
