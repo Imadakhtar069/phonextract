@@ -14,7 +14,7 @@ init(autoreset=True)
 
 # ─────────────────────────────────────────────────────────────
 #  PhoneXtract v3.0
-#  Created by : Imad Akhtar 069 | Insta : Akhtar Imad 69
+
 #  For Educational & OSINT Use Only
 # ─────────────────────────────────────────────────────────────
 
