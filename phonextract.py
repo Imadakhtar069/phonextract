@@ -5,8 +5,7 @@ from datetime import datetime
 import phonenumbers
 from phonenumbers import (
     geocoder, carrier, number_type, timezone,
-    is_valid_number, is_possible_number,
-    region_code_for_number,
+    is_valid_number, is_possible_number,    region_code_for_number,
     PhoneNumberFormat, format_number
 )
 from colorama import init, Fore
